@@ -4,7 +4,7 @@
          "id":3362346097,
          "suspendido_falta_pago":{
             "sin_pago_asociado":{
-               "saldo_exigile":2202.5,
+               "saldo_exigible":2202.5,
                "segundo_vencimiento_mas_antiguo":"2017-12-20"
             }
          }
