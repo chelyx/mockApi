@@ -11,11 +11,11 @@
 		
 	{ id: 6080880323,
 	"suspendido_falta_pago":
-		"rehabilitacion_mas_24h":{"fecha_pago":"2018-07-05","monto_pago":3200.4}}
+		{"rehabilitacion_mas_24h":{"fecha_pago":"2018-07-05","monto_pago":3200.4}}
 	},
 	{id: 5221000000,
 	"suspendido_falta_pago":
-		"cortado_falta_pago":{"saldo_exigible":1789.23,"segundo_vencimiento_impago":"2017-12-13"}
+		{"cortado_falta_pago":{"saldo_exigible":1789.23,"segundo_vencimiento_impago":"2017-12-13"}}
 	}
 ]
 
