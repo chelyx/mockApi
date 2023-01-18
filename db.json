@@ -1,29 +1,70 @@
-"detalleMorosidad": [
-	{id:3362346097,
-	"suspendido_falta_pago":
-		{"sin_pago_asociado": {"saldo_exigile":2202.5,"segundo_vencimiento_mas_antiguo":"2017-12-20"}}
-	},
+{
+   "detalleMorosidad":[
+      {
+         "id":3362346097,
+         "suspendido_falta_pago":{
+            "sin_pago_asociado":{
+               "saldo_exigile":2202.5,
+               "segundo_vencimiento_mas_antiguo":"2017-12-20"
+            }
+         }
+      },
+      {
+         "id":7956518058,
+         "suspendido_falta_pago":{
+            "rehabilitacion_menos_24h":{
+               "fecha_pago":"2018-07-05",
+               "hora_pago":"13:30",
+               "saldo_exigible":3200.4
+            }
+         }
+      },
+      {
+         "id":6080880323,
+         "suspendido_falta_pago":{
+            "rehabilitacion_mas_24h":{
+               "fecha_pago":"2018-07-05",
+               "monto_pago":3200.4
+            }
+         }
+      },
+      {
+         "id":5221000000,
+         "suspendido_falta_pago":{
+            "cortado_falta_pago":{
+               "saldo_exigible":1789.23,
+               "segundo_vencimiento_impago":"2017-12-13"
+            }
+         }
+      }
+   ]
+}
 
-	{id: 7956518058,
-	"suspendido_falta_pago":
-		{"rehabilitacion_menos_24h":{"fecha_pago":"2018-07-05","hora_pago":"13:30","saldo_exigible":3200.4}}
-	},
-		
-	{ id: 6080880323,
-	"suspendido_falta_pago":
-		{"rehabilitacion_mas_24h":{"fecha_pago":"2018-07-05","monto_pago":3200.4}}
-	},
-	{id: 5221000000,
-	"suspendido_falta_pago":
-		{"cortado_falta_pago":{"saldo_exigible":1789.23,"segundo_vencimiento_impago":"2017-12-13"}}
-	}
-]
-
-"morosidad": [
-	{id: 3362346097, "codigo_morosidad":"Suspendido por falta de pago Sin pago asociado"},
-	{id: 7956518058, "codigo_morosidad":"SSuspendido por falta de pago Rehabilitación en curso <24hs"},
-	{id: 6080880323, "codigo_morosidad":"Suspendido por falta de pago Rehabilitación en curso >24hs"},
-	{id: 5221000000, "codigo_morosidad":"Cortado por falta de pago"},
-	{id: 4705865992, "codigo_morosidad":"Suspendido ENRE"},
-	{id: 3378555635, "codigo_morosidad":"Suspendido Edenor"} 
-]
+{
+   "morosidad":[
+      {
+         "id":3362346097,
+         "codigo_morosidad":"Suspendido por falta de pago Sin pago asociado"
+      },
+      {
+         "id":7956518058,
+         "codigo_morosidad":"SSuspendido por falta de pago Rehabilitación en curso <24hs"
+      },
+      {
+         "id":6080880323,
+         "codigo_morosidad":"Suspendido por falta de pago Rehabilitación en curso >24hs"
+      },
+      {
+         "id":5221000000,
+         "codigo_morosidad":"Cortado por falta de pago"
+      },
+      {
+         "id":4705865992,
+         "codigo_morosidad":"Suspendido ENRE"
+      },
+      {
+         "id":3378555635,
+         "codigo_morosidad":"Suspendido Edenor"
+      }
+   ]
+}
